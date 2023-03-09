@@ -1,5 +1,7 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar{
@@ -82,4 +84,21 @@
 
 #about:hover{
     content: "Find out more about me!";
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: radial-gradient(ellipse at left top,white,grey);
+    font-size: 10vmin;
+}
+
+.main_text{
+    text-align: center;
+    color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
