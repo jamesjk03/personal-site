@@ -1,0 +1,85 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color:#1c1c1c;
+    border-bottom: #8ff4ff solid;
+}
+
+.navbar_item{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.navbar_item:hover{
+    background-color: black;
+    color: #8ff4ff;
+}
+
+.welcome_container{
+    display: flex;
+    background-image: radial-gradient(ellipse at left top,white,grey);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.welcome{
+    display: flex;
+    font-size: 10vmin;
+    justify-content: center;
+    align-items: center;
+    color: #1c1c1c;
+    border-top: solid 10px #1c1c1c;
+    border-bottom: solid 10px #1c1c1c;
+}
+
+.options_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1c1c1c;
+}
+
+.option{
+    text-decoration: none;
+    color: #8ff4ff;
+    border-radius: 70px;
+    border-style: solid;
+    border-width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    font-size: 50px;
+    font-weight: 100;
+    width: 300px;
+    height: 500px;
+    transition: background-color 0.5s, color 0.5s, border-radius 1s;
+}
+
+.option:hover{
+    background-color: lightgrey;
+    color: #1c1c1c;
+    border-radius: 20px;
+}
+
+#about:hover{
+    content: "Find out more about me!";
+}
