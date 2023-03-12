@@ -55,7 +55,7 @@
 }
 
 .project_list{
-    height: calc(100vh - 53px);
+    height: 10000px;
     transform: translateY(50px);
     width: 100%;
     display: flex;
@@ -65,8 +65,9 @@
 }
 
 .project_column{
-    height: calc(100vh - 53px);
+    height: 10000px;
     width: 90%;
+    transform: translateY(50px);
     display: flex;
     justify-content: top;
     align-items: center;
@@ -74,16 +75,19 @@
 }
 
 .project_item{
-    width: 70vmin;
-    height: 40%;
+    width: 80vmin;
+    height: 40vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
     margin: 10px;
-    background-image: radial-gradient(ellipse at left top, #8ff4ff, lightgrey);
-    color: #1c1c1c;
+    background-color: #1c1c1c;
+    color: #8ff4ff;
     font-size: 5vmin;
+    text-align: center;
+    border: 3px white solid;
     text-decoration: none;
     transition: border-radius 0.4s;
     box-shadow:
@@ -93,6 +97,11 @@
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.project_desc{
+    color: #bbb;
+    font-size: 3vmin;
 }
 
 .project_item:hover{
